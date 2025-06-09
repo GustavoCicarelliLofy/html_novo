@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota</title>
+</head>
+<body>
+    <script>
+        var nome= prompt("Qual seu nome: ")
+        var nota1= Number(prompt("Qual sua primeira nota?: "))
+        var nota2= Number(prompt("Qual sua segunda nota?: "))
+        var media= (nota1+nota2)/2
+
+        if(media <=10 && media >= 6){
+            alert("Aprovado")
+        }
+        else if(media <6 && media >=4){
+            alert("Em recuperação")
+        }
+        else if(media < 4 && media >=0){
+            alert("Reprovado")
+        }
+        else{
+            alert("Valores incorretos! deixa de ser burro porra")
+        }
+    </script>
+</body>
+</html>
